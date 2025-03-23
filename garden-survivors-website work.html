@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Survivors | Bamboo Garden - Survive and Thrive in the Wild</title>
+    <meta name="description" content="Garden Survivors - An addictive survival game where you'll battle monsters and grow your garden in a challenging environment.">
+    <link rel="canonical" href="https://bamboogarden.work/garden-survivors">
+    <meta property="og:title" content="Garden Survivors">
+    <meta property="og:description" content="Battle monsters and grow your garden in this challenging survival game.">
+    <meta property="og:url" content="https://bamboogarden.work/garden-survivors">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            green: '#34C759',
+                            indigo: '#5856D6',
+                            orange: '#FF9500',
+                            pink: '#FF2D55',
+                            purple: '#AF52DE',
+                            red: '#FF3B30',
+                            teal: '#5AC8FA',
+                            yellow: '#FFCC00',
+                            gray: {
+                                light: '#F2F2F7',
+                                medium: '#E5E5EA',
+                                dark: '#8E8E93'
+                            }
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media (max-width: 768px) {
+            .iframe-container {
+                height: 70vh !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-gray-light min-h-screen">
+    <header class="bg-apple-blue text-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <a href="https://bamboogarden.work" class="text-xl font-bold mb-4 md:mb-0">Bamboo Garden</a>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="#" class="hover:text-apple-yellow transition">Home</a></li>
+                        <li><a href="#game" class="hover:text-apple-yellow transition">Play Now</a></li>
+                        <li><a href="#about" class="hover:text-apple-yellow transition">About</a></li>
+                        <li><a href="#instructions" class="hover:text-apple-yellow transition">How to Play</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-apple-blue mb-4">Garden Survivors</h1>
+            <p class="text-xl text-apple-gray-dark mb-8">Battle monsters, grow your garden, and survive in this challenging adventure!</p>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <a href="#game" class="inline-block bg-apple-green text-white font-bold py-3 px-8 rounded-full shadow-md hover:bg-opacity-90 transition mb-6">Play Now</a>
+                <div id="game" class="iframe-container w-full h-96 md:h-128 bg-black rounded-lg overflow-hidden">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" frameborder="0" class="w-full h-full"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bg-white rounded-lg shadow-lg p-6 mb-12">
+            <h2 class="text-3xl font-bold text-apple-indigo mb-4">About Garden Survivors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg mb-4">Garden Survivors is an exciting survival game where you'll face waves of monsters while trying to cultivate your garden. As a gardener with special abilities, you must defend your plants and grow your garden to thrive in this hostile environment.</p>
+                    <p class="text-lg mb-4">The game combines elements of survival, strategy, and resource management, offering a unique gaming experience that will keep you engaged for hours.</p>
+                </div>
+                <div class="bg-apple-gray-light p-4 rounded-lg">
+                    <h3 class="text-2xl font-bold text-apple-purple mb-2">Game Features</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Exciting monster battles with various enemy types</li>
+                        <li>Plant and grow different types of bamboo and other plants</li>
+                        <li>Unlock special abilities and power-ups</li>
+                        <li>Beautiful garden environments with day/night cycles</li>
+                        <li>Progressive difficulty for continuous challenge</li>
+                        <li>Strategic resource management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="instructions" class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-3xl font-bold text-apple-orange mb-4">How to Play</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-apple-teal mb-2">Controls</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Use WASD or arrow keys to move your character</li>
+                        <li>Space bar to use your special ability</li>
+                        <li>E key to interact with plants and objects</li>
+                        <li>1-4 number keys to select different tools</li>
+                        <li>ESC to pause the game</li>
+                    </ul>
+                    
+                    <h3 class="text-2xl font-bold text-apple-teal mt-6 mb-2">Tips for Beginners</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Focus on planting bamboo early to generate resources</li>
+                        <li>Upgrade your movement speed to avoid monsters more effectively</li>
+                        <li>Create defensive structures around your garden</li>
+                        <li>Collect power-ups whenever possible</li>
+                        <li>Plan your garden layout strategically for optimal growth</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-apple-pink mb-2">Game Progression</h3>
+                    <p class="text-lg mb-4">As you progress through the game, you'll face increasingly difficult waves of monsters. Each wave brings new challenges and opportunities:</p>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-apple-gray-light p-3 rounded">
+                            <h4 class="font-bold text-apple-red">Early Game (Waves 1-5)</h4>
+                            <p>Focus on establishing your garden and basic defenses. Collect resources and learn the game mechanics.</p>
+                        </div>
+                        
+                        <div class="bg-apple-gray-light p-3 rounded">
+                            <h4 class="font-bold text-apple-orange">Mid Game (Waves 6-15)</h4>
+                            <p>Expand your garden and upgrade your abilities. Begin to specialize your strategy based on your playstyle.</p>
+                        </div>
+                        
+                        <div class="bg-apple-gray-light p-3 rounded">
+                            <h4 class="font-bold text-apple-green">Late Game (Waves 16+)</h4>
+                            <p>Master advanced techniques and face the most challenging enemies. Your garden should be fully developed with specialized areas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-blue text-white mt-12 py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Bamboo Garden</h3>
+                    <p>Experience the best online games at bamboogarden.work. Our collection includes exciting survival games like Garden Survivors.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-apple-yellow transition">Home</a></li>
+                        <li><a href="#game" class="hover:text-apple-yellow transition">Play Game</a></li>
+                        <li><a href="#about" class="hover:text-apple-yellow transition">About</a></li>
+                        <li><a href="#instructions" class="hover:text-apple-yellow transition">Instructions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <p class="mb-4">Stay updated with new games and features!</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-apple-yellow transition">Twitter</a>
+                        <a href="#" class="hover:text-apple-yellow transition">Facebook</a>
+                        <a href="#" class="hover:text-apple-yellow transition">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-blue-400 mt-8 pt-8 text-center">
+                <p>&copy; 2025 Bamboo Garden. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
